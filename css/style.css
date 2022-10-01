@@ -1,23 +1,61 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto:wght@300&display=swap');
+
+.html{
+  font-size: 1px;
+}
+
+@font-face {
+  font-family: Holiday Garden;
+  src: local(font/HolidayGarden) format("woff"),
+    url(HolidayGarden.woff) format("woff");
+  font-stretch: expanded;
+}
+
+@font-face {
+  font-family: Berpatu;
+  src: local(font/Berpatu-PKxr2) format("woff"),
+    url(Berpatu-PKxr2.woff) format("woff");
+}
+
+.text-auto {
+  margin-left: 64rem;
+  margin-right: 64rem;
+}
 
 a {
-  color: black;
+  color: #968fc0;
   text-decoration: none;
 }
 
+a:hover {
+  color: #000000;
+}
+
 .navigation {
-  
+  display: flex;
   background-color: white;
-  height: 3rem;
+  height: 82rem;
+  padding: 0rem 33rem 0rem 0rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1rem solid rgb(239 231 231);
+}
+
+.navleft {
+  margin-top: 14rem;
+}
+
+.logo {
+  font-size: 30rem;
+  list-style: none;
+  font-family: Holiday Garden;
 }
 
 .navright {
-  font-size: 1rem;
-  font-family: "Rubik", sans-serif;
+  font-size: 20rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-list {
@@ -27,34 +65,118 @@ a {
 
 .nav-list li {
   list-style: none;
-  padding: 2rem;
+  padding: 33rem;
   text-decoration: none;
 }
 
-.nav-list li button {
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  padding: 11px;
+.btn {
+  background: white;
+  border: 2rem solid #d9cbc8;
+  cursor: pointer;
+  padding: 8rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  font-family: "Rubik", sans-serif;
-  margin: 4px 2px;
-  border-radius: 26px;
+  margin: 4rem 2rem;
+  border-radius: 50rem;
+  font-size: 16rem;
 }
 
-.nav-list li button:hover {
-    background: beige;
-  }
+.btn:hover {
+  color: #000000;
+  background: #d9cbc8;
+}
 
 .content {
-  background-color: lightcoral;
-  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  height: 318rem;
+  border-bottom: 1rem solid lightgray;
 }
 
+.article-content {
+  background-image: linear-gradient(rgb(215 215 229), white);
+}
+
+.top-article {
+  color: #3b446b;
+  font-weight: bold;
+  font-size: 36rem;
+}
+
+.top-article-small {
+  position: relative;
+  margin-top: -15rem;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 18rem;
+  word-spacing: 10rem;
+  text-shadow: 2rem 2rem 5rem #000000;
+}
+
+.btn2 {
+  position: absolute;
+  top: 66rem;
+  left: 6rem;
+  font-size: 14rem;
+  font-family: sans-serif;
+  border: 1rem solid #2e2e7c;
+  border-radius: 4rem;
+  padding: 9rem;
+  cursor: pointer;
+  color: white;
+  background-color: #2e2e7c;
+}
+
+.btn2:hover {
+  color: #2e2e7c;
+  background-color: #ffffff;
+}
+
+.image-content img{
+  margin-right: 46rem;
+  height: 316rem;
+  width: 592rem;
+  max-width: 100%;
+  margin-left: auto;
+  opacity: 0.6;
+
+}
+
+
 .footer {
-  background-color: lightpink;
-  height: 50px;
+  height: 107rem;
+}
+
+.upper-foot {
+  font-size: 30rem;
+  text-align: center;
+}
+
+.upper-foot p {
+  margin: 5rem;
+}
+
+.lower-foot {
+  font-size: 15rem;
+}
+
+.cat-list {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -39rem;
+}
+
+.cat-list-item {
+  list-style: none;
+  letter-spacing: 2rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20rem;
+}
+
+.cat-list-item img {
+  width: 195rem;
+  height: 165rem;
+  border-radius: 20rem;
 }
