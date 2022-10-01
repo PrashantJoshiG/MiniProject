@@ -5,6 +5,10 @@
   font-size: 1px;
 }
 
+.body{
+  margin: 0rem;
+}
+
 @font-face {
   font-family: Holiday Garden;
   src: local(font/HolidayGarden) format("woff"),
@@ -33,7 +37,6 @@ a:hover {
 }
 
 .navigation {
-  display: flex;
   background-color: white;
   height: 82rem;
   padding: 0rem 33rem 0rem 0rem;
@@ -70,8 +73,9 @@ a:hover {
 }
 
 .btn {
+  color: #968fc0;
   background: white;
-  border: 2rem solid #d9cbc8;
+  border: 2rem solid #968fc0;
   cursor: pointer;
   padding: 8rem;
   text-align: center;
@@ -83,8 +87,8 @@ a:hover {
 }
 
 .btn:hover {
-  color: #000000;
-  background: #d9cbc8;
+  color: #000000!important;
+  background: #968fc0;
 }
 
 .content {
