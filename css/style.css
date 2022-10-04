@@ -1,25 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto:wght@300&display=swap');
 
-.html{
+html {
   font-size: 1px;
 }
 
-.body{
+body {
   margin: 0rem;
 }
 
 @font-face {
+  font-family: Samarkan;
+  src: url(/font/Samarkan.TTF) format('truetype');
+}
+
+@font-face {
+  font-family: Rosmatika;
+  src: url(../font/RosmatikaRegular-BWA45.ttf) format('woff');
+}
+
+@font-face {
   font-family: Holiday Garden;
-  src: local(font/HolidayGarden) format("woff"),
-    url(HolidayGarden.woff) format("woff");
-  font-stretch: expanded;
+  src: url(../font/HolidayGarden.woff) format("woff");
 }
 
 @font-face {
   font-family: Berpatu;
-  src: local(font/Berpatu-PKxr2) format("woff"),
-    url(Berpatu-PKxr2.woff) format("woff");
+  src: url(../font/Berpatu-PKxr2.woff) format("woff");
 }
 
 .text-auto {
@@ -46,14 +53,10 @@ a:hover {
   border-bottom: 1rem solid rgb(239 231 231);
 }
 
-.navleft {
-  margin-top: 14rem;
-}
-
 .logo {
-  font-size: 30rem;
+  font-size: 28rem;
   list-style: none;
-  font-family: Holiday Garden;
+  font-family: Samarkan;
 }
 
 .navright {
@@ -87,7 +90,7 @@ a:hover {
 }
 
 .btn:hover {
-  color: #000000!important;
+  color: #000000 !important;
   background: #968fc0;
 }
 
@@ -137,7 +140,7 @@ a:hover {
   background-color: #ffffff;
 }
 
-.image-content img{
+.image-content img {
   margin-right: 46rem;
   height: 316rem;
   width: 592rem;

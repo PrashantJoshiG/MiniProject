@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+
+@font-face {
+    font-family: DroidSerif;
+    src: url(/font/DroidSerif-Regular.ttf) format('truetype');
+}
+
+h1 {
+    font-size: 28rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 10rem;
+    letter-spacing: 2rem;
+}
+
+.small-heading {
+    display: block;
+    font-size: 28rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: rgb(160 160 134);
+    letter-spacing: 2rem;
+    margin-top: 40rem;
+    margin-bottom: 15rem;
+}
+
+.content-body {
+    margin: 0rem 245rem;
+}
+
+.content-body img {
+    height: 345rem;
+    width: 859rem;
+}
+
+.article-paragraph{
+    font-size: 18rem;
+    line-height: 30rem;
+    word-spacing: 10rem;
+    letter-spacing: 0rem;
+    font-family: DroidSerif;
+    color: rgb(116 116 93);
+}

@@ -1,0 +1,37 @@
+.sub {
+    font-size: 18rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: -20rem;
+    margin-bottom: 40rem;
+    color: #0000007d;
+}
+
+.contact-information {
+    margin: 0rem 180rem;
+    background-color: rgb(56 5 139);
+    border-radius: 25rem;
+    padding: 50rem 65rem;
+}
+
+.contact-information-heading {
+    font-size: 30rem;
+    color: white;
+    font-family: monospace;
+}
+
+.contact-information-content {
+    color: #b5b5b5;
+    font-size: 18rem;
+
+}
+
+i {
+    margin-right: 48rem;
+    color: pink;
+}
+
+.bottom-content {
+    display: flex;
+    margin-top: 40rem;
+    margin-bottom: -52rem;
+}
